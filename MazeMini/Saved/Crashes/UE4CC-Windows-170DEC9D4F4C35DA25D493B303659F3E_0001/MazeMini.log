@@ -1,0 +1,975 @@
+﻿Log file open, 05/04/21 02:45:06
+LogInit: Display: Running engine for game: MazeMini
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.384547
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Text3D
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx  , GPU: AMD Radeon(TM) Vega 8 Graphics
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -EpicPortal -epicusername=rahuljoseph987 -epicuserid=5b39829935e3455380e3983441310982 -epiclocale=en
+LogInit: Base Directory: E:/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/PiRate Island/MazeMini/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.05.04-06.45.06:927][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.05.04-06.45.06:927][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.05.04-06.45.06:927][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/PiRate Island/MazeMini/Saved/Config/Windows/Engine.ini]
+[2021.05.04-06.45.06:927][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.05.04-06.45.06:927][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/PiRate Island/MazeMini/Saved/Config/Windows/Engine.ini]
+[2021.05.04-06.45.06:927][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/PiRate Island/MazeMini/Saved/Config/Windows/Engine.ini]
+[2021.05.04-06.45.06:927][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.05.04-06.45.06:927][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.05.04-06.45.06:927][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.05.04-06.45.06:927][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.05.04-06.45.06:927][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.05.04-06.45.06:927][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.05.04-06.45.06:927][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.05.04-06.45.06:927][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.05.04-06.45.06:927][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.05.04-06.45.06:928][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.05.04-06.45.06:928][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.05.04-06.45.06:928][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.05.04-06.45.06:928][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.05.04-06.45.06:928][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.05.04-06.45.06:928][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/PiRate Island/MazeMini/Saved/Config/Windows/Engine.ini]
+[2021.05.04-06.45.06:928][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.05.04-06.45.06:928][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.05.04-06.45.06:928][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.05.04-06.45.06:928][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.05.04-06.45.06:928][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.05.04-06.45.06:928][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.05.04-06.45.06:928][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.05.04-06.45.06:928][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.05.04-06.45.06:928][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.05.04-06.45.06:928][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.05.04-06.45.06:928][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.05.04-06.45.06:928][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.05.04-06.45.06:928][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.05.04-06.45.06:928][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/PiRate Island/MazeMini/Saved/Config/Windows/Engine.ini]
+[2021.05.04-06.45.06:929][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/PiRate Island/MazeMini/Saved/Config/Windows/Engine.ini]
+[2021.05.04-06.45.06:936][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/PiRate Island/MazeMini/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-06.45.06:936][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.05.04-06.45.06:936][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.05.04-06.45.06:936][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/PiRate Island/MazeMini/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-06.45.06:936][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.05.04-06.45.06:936][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/PiRate Island/MazeMini/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-06.45.06:936][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.04-06.45.06:936][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.04-06.45.06:936][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.04-06.45.06:936][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.04-06.45.06:936][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.04-06.45.06:936][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.04-06.45.06:936][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/PiRate Island/MazeMini/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.04-06.45.06:937][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.04-06.45.06:938][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.04-06.45.06:938][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.04-06.45.06:938][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.04-06.45.06:938][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.04-06.45.06:938][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.04-06.45.06:938][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.04-06.45.06:938][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.04-06.45.06:938][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.04-06.45.06:938][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.04-06.45.06:938][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.04-06.45.06:938][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.04-06.45.06:938][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.04-06.45.06:938][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.04-06.45.06:938][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/PiRate Island/MazeMini/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-06.45.06:938][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.04-06.45.06:938][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.04-06.45.06:938][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.04-06.45.06:938][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.04-06.45.06:938][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.04-06.45.06:938][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.04-06.45.06:938][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.04-06.45.06:938][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.04-06.45.06:938][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.04-06.45.06:938][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/PiRate Island/MazeMini/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-06.45.06:938][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.04-06.45.06:939][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.04-06.45.06:939][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.04-06.45.06:939][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.04-06.45.06:939][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.04-06.45.06:939][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.04-06.45.06:939][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.04-06.45.06:939][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.04-06.45.06:939][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.04-06.45.06:939][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.04-06.45.06:939][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.04-06.45.06:939][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.04-06.45.06:939][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.04-06.45.06:939][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.04-06.45.06:939][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.04-06.45.06:939][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.04-06.45.06:939][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.05.04-06.45.06:939][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.04-06.45.06:939][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.04-06.45.06:939][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.04-06.45.06:939][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.05.04-06.45.06:939][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.04-06.45.06:939][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.05.04-06.45.06:939][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.04-06.45.06:939][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.04-06.45.06:939][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.04-06.45.06:939][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/PiRate Island/MazeMini/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-06.45.06:939][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.05.04-06.45.06:939][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.05.04-06.45.06:940][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/PiRate Island/MazeMini/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-06.45.06:940][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.05.04-06.45.06:940][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.05.04-06.45.06:940][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.05.04-06.45.06:940][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.05.04-06.45.06:940][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.05.04-06.45.06:940][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.05.04-06.45.06:940][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.04-06.45.06:940][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.04-06.45.06:940][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.05.04-06.45.06:940][  0]LogHAL: Display: Platform has ~ 7 GB [7469842432 / 8589934592 / 7], which maps to Smaller [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.05.04-06.45.06:940][  0]LogInit: Going up to parent DeviceProfile []
+[2021.05.04-06.45.06:940][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/PiRate Island/MazeMini/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-06.45.06:940][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.05.04-06.45.06:940][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.05.04-06.45.06:940][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/PiRate Island/MazeMini/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-06.45.06:940][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.05.04-06.45.06:940][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/PiRate Island/MazeMini/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-06.45.06:940][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.04-06.45.06:940][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/PiRate Island/MazeMini/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.04-06.45.06:941][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/PiRate Island/MazeMini/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/PiRate Island/MazeMini/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.04-06.45.06:942][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/PiRate Island/MazeMini/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/PiRate Island/MazeMini/Saved/Config/Windows/Scalability.ini]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.05.04-06.45.06:943][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.05.04-06.45.06:944][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.05.04-06.45.06:944][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.05.04-06.45.06:944][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.05.04-06.45.06:944][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.04-06.45.06:944][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.05.04-06.45.06:945][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.05.04-06.45.06:945][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.05.04-06.45.06:945][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.05.04-06.45.06:945][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/PiRate Island/MazeMini/Saved/Config/Windows/Engine.ini]
+[2021.05.04-06.45.06:945][  0]LogInit: Computer: DESKTOP-C60EHHE
+[2021.05.04-06.45.06:945][  0]LogInit: User: rahul
+[2021.05.04-06.45.06:945][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.05.04-06.45.06:945][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.05.04-06.45.06:946][  0]LogMemory: Memory total: Physical=7.0GB (7GB approx)
+[2021.05.04-06.45.06:946][  0]LogMemory: Platform Memory Stats for Windows
+[2021.05.04-06.45.06:946][  0]LogMemory: Process Physical Memory: 114.75 MB used, 114.75 MB peak
+[2021.05.04-06.45.06:946][  0]LogMemory: Process Virtual Memory: 96.00 MB used, 96.00 MB peak
+[2021.05.04-06.45.06:946][  0]LogMemory: Physical Memory: 4731.16 MB used,  2392.64 MB free, 7123.80 MB total
+[2021.05.04-06.45.06:946][  0]LogMemory: Virtual Memory: 5143.16 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2021.05.04-06.45.06:964][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.05.04-06.45.07:077][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.05.04-06.45.07:080][  0]LogInit: Using OS detected language (en-US).
+[2021.05.04-06.45.07:080][  0]LogInit: Using OS detected locale (en-US).
+[2021.05.04-06.45.07:086][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.05.04-06.45.07:622][  0]LogInit: Setting process to per monitor DPI aware
+[2021.05.04-06.45.07:712][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.05.04-06.45.07:712][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.05.04-06.45.08:269][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.05.04-06.45.08:270][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.05.04-06.45.08:270][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.05.04-06.45.08:270][  0]LogD3D11RHI: D3D11 adapters:
+[2021.05.04-06.45.08:337][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) Vega 8 Graphics' (Feature Level 11_0)
+[2021.05.04-06.45.08:337][  0]LogD3D11RHI:       1008/0/3561 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2021.05.04-06.45.08:345][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.05.04-06.45.08:345][  0]LogD3D11RHI:       0/0/3561 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.05.04-06.45.08:345][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.05.04-06.45.08:367][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.05.04-06.45.08:367][  0]LogD3D11RHI:     GPU DeviceId: 0x15dd (for the marketing name, search the web for "GPU Device Id")
+[2021.05.04-06.45.08:367][  0]LogWindows: EnumDisplayDevices:
+[2021.05.04-06.45.08:368][  0]LogWindows:    0. 'AMD Radeon(TM) Vega 8 Graphics' (P:1 D:1)
+[2021.05.04-06.45.08:369][  0]LogWindows:    1. 'AMD Radeon(TM) Vega 8 Graphics' (P:0 D:0)
+[2021.05.04-06.45.08:370][  0]LogWindows:    2. 'AMD Radeon(TM) Vega 8 Graphics' (P:0 D:0)
+[2021.05.04-06.45.08:371][  0]LogWindows:    3. 'AMD Radeon(TM) Vega 8 Graphics' (P:0 D:0)
+[2021.05.04-06.45.08:372][  0]LogWindows:    4. 'AMD Radeon(TM) Vega 8 Graphics' (P:0 D:0)
+[2021.05.04-06.45.08:373][  0]LogWindows:    5. 'AMD Radeon(TM) Vega 8 Graphics' (P:0 D:0)
+[2021.05.04-06.45.08:374][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2021.05.04-06.45.08:374][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) Vega 8 Graphics
+[2021.05.04-06.45.08:374][  0]LogD3D11RHI:   Driver Version: Adrenalin 19.10.08.06 (internal:26.20.11008.6001, unified:26.20.11008.6001)
+[2021.05.04-06.45.08:374][  0]LogD3D11RHI:      Driver Date: 11-4-2019
+[2021.05.04-06.45.08:374][  0]LogRHI: Texture pool is 2879 MB (70% of 4113 MB)
+[2021.05.04-06.45.08:462][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2021.05.04-06.45.08:462][  0]LogD3D11RHI: Async texture creation enabled
+[2021.05.04-06.45.08:462][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.05.04-06.45.08:462][  0]LogD3D11RHI: HDR output is supported on display 0 (AMD Device: 0x0, Display: 0x0).
+[2021.05.04-06.45.08:484][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2021.05.04-06.45.09:218][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.05.04-06.45.09:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.05.04-06.45.09:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.05.04-06.45.09:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.05.04-06.45.09:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.05.04-06.45.09:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.05.04-06.45.09:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.05.04-06.45.09:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.05.04-06.45.09:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.05.04-06.45.09:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.05.04-06.45.09:263][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.05.04-06.45.09:324][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.05.04-06.45.09:324][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.05.04-06.45.09:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.05.04-06.45.09:368][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.05.04-06.45.09:389][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.05.04-06.45.09:410][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.05.04-06.45.09:438][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.05.04-06.45.09:465][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.05.04-06.45.09:487][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.05.04-06.45.09:549][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.05.04-06.45.09:549][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.05.04-06.45.09:595][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.05.04-06.45.09:595][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.05.04-06.45.09:618][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.05.04-06.45.09:642][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.05.04-06.45.09:668][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.05.04-06.45.09:697][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.05.04-06.45.09:697][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.05.04-06.45.09:723][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.05.04-06.45.09:885][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (../../../../PiRate Island/MazeMini/Intermediate/Shaders/WorkingDirectory/1396/).
+[2021.05.04-06.45.09:886][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/rahul/AppData/Local/Temp/UnrealShaderWorkingDir/3060D6B749EF81651AA94ABA2B722964/'.
+[2021.05.04-06.45.09:888][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.05.04-06.45.09:888][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.05.04-06.45.09:888][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.05.04-06.45.11:365][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.05.04-06.45.11:492][  0]LogDerivedDataCache: Loaded boot cache 0.13s 76MB C:/Users/rahul/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.05.04-06.45.11:493][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/rahul/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.05.04-06.45.11:493][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../PiRate Island/MazeMini/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.05.04-06.45.11:493][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.05.04-06.45.11:493][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../PiRate Island/MazeMini/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.05.04-06.45.11:493][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.05.04-06.45.11:515][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.05.04-06.45.11:515][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.05.04-06.45.11:515][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.05.04-06.45.11:520][  0]LogDerivedDataCache: Using Local data cache path C:/Users/rahul/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.05.04-06.45.11:520][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.05.04-06.45.11:521][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.05.04-06.45.11:611][  0]LogSlate: Using FreeType 2.10.0
+[2021.05.04-06.45.11:613][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.05.04-06.45.11:673][  0]LogAssetRegistry: FAssetRegistry took 0.0066 seconds to start up
+[2021.05.04-06.45.12:200][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.04-06.45.12:478][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.05.04-06.45.12:479][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.05.04-06.45.12:479][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.05.04-06.45.12:479][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.05.04-06.45.12:479][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.05.04-06.45.12:519][  0]LogNetVersion: MazeMini 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3810557812)
+[2021.05.04-06.45.13:575][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001E37AF76980), frame # 0
+[2021.05.04-06.45.13:576][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E37BE48180), frame # 0
+[2021.05.04-06.45.13:579][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E37BE5DC00), frame # 0
+[2021.05.04-06.45.13:772][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.176816 seconds
+[2021.05.04-06.45.13:787][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.05.04-06.45.13:787][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.05.04-06.45.13:787][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.05.04-06.45.14:721][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.05.04-06.45.14:732][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.05.04-06.45.14:947][  0]SourceControl: Source control is disabled
+[2021.05.04-06.45.14:947][  0]SourceControl: Source control is disabled
+[2021.05.04-06.45.14:955][  0]SourceControl: Source control is disabled
+[2021.05.04-06.45.14:963][  0]SourceControl: Source control is disabled
+[2021.05.04-06.45.14:981][  0]SourceControl: Source control is disabled
+[2021.05.04-06.45.15:024][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.05.04-06.45.15:025][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.05.04-06.45.15:741][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.05.04-06.45.15:805][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.05.04-06.45.15:805][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.05.04-06.45.15:933][  0]LogOcInput: OculusInput pre-init called
+[2021.05.04-06.45.15:959][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.05.04-06.45.15:959][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.05.04-06.45.16:118][  0]LogEngine: Initializing Engine...
+[2021.05.04-06.45.16:122][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.05.04-06.45.16:122][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.05.04-06.45.16:124][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2021.05.04-06.45.16:456][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.05.04-06.45.16:478][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.05.04-06.45.16:478][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E3041D3C00), frame # 0
+[2021.05.04-06.45.16:478][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E30421D1C0), frame # 0
+[2021.05.04-06.45.16:490][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.04-06.45.16:491][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.04-06.45.16:491][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.04-06.45.16:491][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.04-06.45.16:491][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.04-06.45.16:491][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.04-06.45.16:491][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.04-06.45.16:491][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.04-06.45.16:491][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.04-06.45.16:491][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.04-06.45.16:531][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.04-06.45.16:531][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.05.04-06.45.16:784][  0]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
+[2021.05.04-06.45.16:784][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.04-06.45.16:790][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.04-06.45.16:791][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.04-06.45.16:793][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.04-06.45.16:796][  0]LogInit: FAudioDevice initialized.
+[2021.05.04-06.45.16:796][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.05.04-06.45.17:229][  0]LogDerivedDataCache: Saved boot cache 0.43s 76MB C:/Users/rahul/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.05.04-06.45.17:230][  0]LogInit: Texture streaming: Enabled
+[2021.05.04-06.45.17:284][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.05.04-06.45.17:284][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.05.04-06.45.17:302][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.05.04-06.45.17:433][  0]LogInit: Transaction tracking system initialized
+[2021.05.04-06.45.17:494][  0]BlueprintLog: New page: Editor Load
+[2021.05.04-06.45.17:708][  0]LocalizationService: Localization service is disabled
+[2021.05.04-06.45.17:938][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.05.04-06.45.17:940][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.05.04-06.45.18:148][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.05.04-06.45.18:148][  0]LogCook: Display: Mobile HDR setting 1
+[2021.05.04-06.45.18:483][  0]LogFileCache: Scanning file cache for directory 'E:/PiRate Island/MazeMini/Content/' took 0.01s
+[2021.05.04-06.45.18:932][  0]SourceControl: Source control is disabled
+[2021.05.04-06.45.18:932][  0]LogUnrealEdMisc: Loading editor; pre map load, took 18.718
+[2021.05.04-06.45.18:932][  0]Cmd: MAP LOAD FILE="../../../../PiRate Island/MazeMini/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.04-06.45.18:933][  0]LightingResults: New page: Lighting Build
+[2021.05.04-06.45.18:935][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.05.04-06.45.18:935][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.04-06.45.18:936][  0]MapCheck: New page: Map Check
+[2021.05.04-06.45.18:936][  0]LightingResults: New page: Lighting Build
+[2021.05.04-06.45.18:952][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E3041D3C00), frame # 0
+[2021.05.04-06.45.18:952][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E30421D1C0), frame # 0
+[2021.05.04-06.45.18:953][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2021.05.04-06.45.20:010][  0]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.05.04-06.45.20:805][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.05.04-06.45.20:807][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E30E290600), frame # 0
+[2021.05.04-06.45.20:807][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E30E0D16C0), frame # 0
+[2021.05.04-06.45.23:199][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2021.05.04-06.45.23:309][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2021.05.04-06.45.23:310][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.05.04-06.45.23:311][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.423ms to complete.
+[2021.05.04-06.45.23:311][  0]LogFileHelpers: Loading map 'Minimal_Default' took 4.378
+[2021.05.04-06.45.23:315][  0]LogUnrealEdMisc: Total Editor Startup Time, took 23.101
+[2021.05.04-06.45.23:516][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.04-06.45.23:531][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.04-06.45.23:545][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.04-06.45.23:564][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.04-06.45.23:587][  0]LogCollectionManager: Loaded 0 collections in 0.005665 seconds
+[2021.05.04-06.45.23:649][  0]LogFileCache: Scanning file cache for directory 'E:/PiRate Island/MazeMini/Saved/Collections/' took 0.00s
+[2021.05.04-06.45.23:650][  0]LogFileCache: Scanning file cache for directory 'E:/PiRate Island/MazeMini/Content/Developers/rahul/Collections/' took 0.00s
+[2021.05.04-06.45.23:650][  0]LogFileCache: Scanning file cache for directory 'E:/PiRate Island/MazeMini/Content/Collections/' took 0.00s
+[2021.05.04-06.45.23:650][  0]LogContentBrowser: Native class hierarchy populated in 0.0252 seconds. Added 3431 classes and 825 folders.
+[2021.05.04-06.45.23:680][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2021.05.04-06.45.25:118][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2021.05.04-06.45.25:121][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 2 classes and 0 folders.
+[2021.05.04-06.45.25:247][  0]LogSlate: Took 0.001357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.05.04-06.45.25:252][  0]LogSlate: Took 0.000737 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.05.04-06.45.25:280][  0]LogSlate: Took 0.014981 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.05.04-06.45.25:567][  0]LogRenderer: Reallocating scene render targets to support 964x432 Format 10 NumSamples 1 (Frame:1).
+[2021.05.04-06.45.25:737][  0]LogSlate: Took 0.027973 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.04-06.45.26:063][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2021.05.04-06.45.26:064][  0]LogLoad: (Engine Initialization) Total time: 25.85 seconds
+[2021.05.04-06.45.26:064][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.05.04-06.45.26:254][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.05.04-06.45.26:439][  1]LogAssetRegistry: Asset discovery search completed in 14.7686 seconds
+[2021.05.04-06.45.26:454][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000008 seconds (updated 0 objects)
+[2021.05.04-06.45.27:456][  7]LogSlate: Took 0.000703 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.04-06.45.38:301][212]LogEditorViewport: Clicking on Actor (LMB): Text3DActor44_Blueprint_C (Text3DActor44_Blueprint)
+[2021.05.04-06.46.44:480][232]LogEditorViewport: Clicking Background
+[2021.05.04-06.46.52:356][411]LogEditorViewport: Clicking on Actor (LMB): BP_Maze_C (BP_Maze)
+[2021.05.04-06.46.54:179][440]LogEditorViewport: Clicking on Actor (LMB): Text3DActor (Text3DActor19+37)
+[2021.05.04-06.47.03:226][511]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2021.05.04-06.47.03:264][511]LogBlueprint: Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find native parent component 'DefaultSceneRoot_GEN_VARIABLE' for 'Text3DActor19+37' in BlueprintGeneratedClass 'Text3DActor19+37_Blueprint_C' (it may have been removed)
+[2021.05.04-06.47.03:326][511]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2021.05.04-06.47.03:510][511]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Text3DActor19+37_Blueprint.Text3DActor19+37_Blueprint
+[2021.05.04-06.47.04:360][511]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 125 classes and 0 folders.
+[2021.05.04-06.47.12:650][579]LogSlate: Window 'Text3DActor19+37_Blueprint' being destroyed
+[2021.05.04-06.47.12:671][579]LogSlate: Window 'Text3DActor19+37_Blueprint' being destroyed
+[2021.05.04-06.47.12:706][579]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2021.05.04-06.47.12:706][579]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.04-06.47.14:401][595]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/M_Goal.M_Goal
+[2021.05.04-06.47.14:404][595]LogMaterial: Display: Missing cached shader map for material M_Goal, compiling. 
+[2021.05.04-06.47.15:394][595]LogMaterial: Display: Missing cached shader map for material M_Goal, compiling. 
+[2021.05.04-06.47.15:430][595]LogMaterial: Display: Missing cached shader map for material M_Goal, compiling. 
+[2021.05.04-06.47.15:476][595]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 22
+[2021.05.04-06.47.15:476][595]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 21
+[2021.05.04-06.47.15:476][595]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 20
+[2021.05.04-06.47.15:476][595]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 19
+[2021.05.04-06.47.15:485][595]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.05.04-06.47.15:619][595]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Maze.BP_Maze
+[2021.05.04-06.47.16:718][595]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Ball.BP_Ball
+[2021.05.04-06.47.17:788][595]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 22
+[2021.05.04-06.47.18:153][595]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Goal.BP_Goal
+[2021.05.04-06.47.18:819][595]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 21
+[2021.05.04-06.47.18:819][595]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 20
+[2021.05.04-06.47.18:887][595]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2021.05.04-06.47.18:887][595]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 18
+[2021.05.04-06.47.18:887][595]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 17
+[2021.05.04-06.47.19:159][595]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 16
+[2021.05.04-06.47.19:159][595]LogSlate: Took 0.018344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.05.04-06.47.19:577][596]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 15
+[2021.05.04-06.47.20:112][600]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 14
+[2021.05.04-06.47.20:564][603]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
+[2021.05.04-06.47.20:711][604]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2021.05.04-06.47.20:947][605]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2021.05.04-06.47.21:508][609]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2021.05.04-06.47.23:325][618]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2021.05.04-06.47.23:517][619]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2021.05.04-06.47.23:851][623]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2021.05.04-06.47.24:035][623]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2021.05.04-06.47.24:924][630]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2021.05.04-06.47.25:589][634]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2021.05.04-06.47.25:747][635]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2021.05.04-06.47.25:951][636]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2021.05.04-06.47.26:750][641]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.05.04-06.47.27:872][646]MaterialEditorStats: Base pass shader: 80 instructions
+[2021.05.04-06.47.27:872][646]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 101 instructions
+[2021.05.04-06.47.27:872][646]MaterialEditorStats: Base pass vertex shader: 165 instructions
+[2021.05.04-06.47.27:873][646]MaterialEditorStats: Texture samplers: 4/16
+[2021.05.04-06.47.32:630][695]LogSlate: Window 'BP_Goal' being destroyed
+[2021.05.04-06.47.32:640][695]LogSlate: Window 'BP_Goal' being destroyed
+[2021.05.04-06.47.32:784][695]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2021.05.04-06.47.32:784][695]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.04-06.47.32:824][695]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2021.05.04-06.47.32:824][695]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.04-06.47.32:943][695]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.05.04-06.47.32:943][695]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2021.05.04-06.47.32:943][695]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.04-06.47.33:059][695]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.05.04-06.47.33:059][695]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2021.05.04-06.47.33:059][695]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.04-06.47.34:676][704]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Maze.BP_Maze
+[2021.05.04-06.47.38:744][764]LogSlate: Window 'BP_Maze' being destroyed
+[2021.05.04-06.47.59:107][189]LogEditorViewport: Clicking on Actor (LMB): BP_Maze_C (BP_Maze)
+[2021.05.04-06.48.12:440][334]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Text3DActor19+37_Blueprint.Text3DActor19+37_Blueprint
+[2021.05.04-06.48.18:686][626]LogRenderer: Reallocating scene render targets to support 964x680 Format 10 NumSamples 1 (Frame:1).
+[2021.05.04-06.48.23:167][746]LogSlate: Took 0.027726 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.05.04-06.48.48:514][713]LogBlueprint: Warning: Blueprint Text3DActor19+37_Blueprint (child of/implements BP_Maze) has a component variable with a conflicting name (Text3DActor19+37). Changing to Text3DActor19+37_0.
+[2021.05.04-06.49.50:629][546]LogUObjectHash: Compacting FUObjectHashTables data took  10.22ms
+[2021.05.04-06.49.50:903][546]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2021.05.04-06.49.52:624][546]LogSavePackage: Moving '../../../../PiRate Island/MazeMini/Saved/Minimal_Default1E5B9D55428062749D301F88C21CBB32.tmp' to '../../../../PiRate Island/MazeMini/Content/StarterContent/Maps/Minimal_Default.umap'
+[2021.05.04-06.49.52:768][546]LogFileHelpers: Saving map 'Minimal_Default' took 1.986
+[2021.05.04-06.49.52:769][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/Minimal_Default_BuiltData" FILE="../../../../PiRate Island/MazeMini/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" SILENT=true
+[2021.05.04-06.49.53:083][546]LogSavePackage: Moving '../../../../PiRate Island/MazeMini/Saved/Minimal_Default_BuiltData281E93F14FEBBA863E8D05AF0DE7FC6D.tmp' to '../../../../PiRate Island/MazeMini/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2021.05.04-06.49.53:214][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Maze" FILE="../../../../PiRate Island/MazeMini/Content/BP_Maze.uasset" SILENT=true
+[2021.05.04-06.49.53:643][546]LogSavePackage: Moving '../../../../PiRate Island/MazeMini/Saved/BP_Maze81A9F54642B0A2ACD575698C1A4F7CA1.tmp' to '../../../../PiRate Island/MazeMini/Content/BP_Maze.uasset'
+[2021.05.04-06.49.53:691][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Text3DActor19+37_Blueprint" FILE="../../../../PiRate Island/MazeMini/Content/Text3DActor19+37_Blueprint.uasset" SILENT=true
+[2021.05.04-06.49.53:739][546]LogSavePackage: Moving '../../../../PiRate Island/MazeMini/Saved/Text3DActor19+37_Blueprint49A1D3E74F50D50D6EE4BEAD44DB3DB7.tmp' to '../../../../PiRate Island/MazeMini/Content/Text3DActor19+37_Blueprint.uasset'
+[2021.05.04-06.49.53:827][546]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.04-06.49.53:827][546]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2021.05.04-06.49.53:827][546]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
+[2021.05.04-06.49.53:828][546]LogContentValidation: Display: Validating Blueprint /Game/BP_Maze.BP_Maze
+[2021.05.04-06.49.53:828][546]LogContentValidation: Display: Validating Blueprint /Game/Text3DActor19+37_Blueprint.Text3DActor19+37_Blueprint
+[2021.05.04-06.50.23:427][242]LogEditorViewport: Clicking Background
+[2021.05.04-06.50.25:533][319]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.04-06.50.25:796][319]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.05.04-06.50.25:932][319]LogPlayLevel: [PlayLevel] Compiling BP_Maze before play...
+[2021.05.04-06.50.25:932][319]LogPlayLevel: [PlayLevel]   Compiling Text3DActor11+18_Blueprint as a dependent...
+[2021.05.04-06.50.25:932][319]LogPlayLevel: [PlayLevel]   Compiling Text3DActor13+28_Blueprint as a dependent...
+[2021.05.04-06.50.25:932][319]LogPlayLevel: [PlayLevel]   Compiling Text3DActor13_Blueprint as a dependent...
+[2021.05.04-06.50.25:932][319]LogPlayLevel: [PlayLevel]   Compiling Text3DActor14+38_Blueprint as a dependent...
+[2021.05.04-06.50.25:932][319]LogPlayLevel: [PlayLevel]   Compiling Text3DActor15_Blueprint as a dependent...
+[2021.05.04-06.50.25:932][319]LogPlayLevel: [PlayLevel]   Compiling Text3DActor19+37_Blueprint as a dependent...
+[2021.05.04-06.50.25:932][319]LogPlayLevel: [PlayLevel]   Compiling Text3DActor20+9_Blueprint as a dependent...
+[2021.05.04-06.50.25:932][319]LogPlayLevel: [PlayLevel]   Compiling Text3DActor22+7_Blueprint as a dependent...
+[2021.05.04-06.50.25:932][319]LogPlayLevel: [PlayLevel]   Compiling Text3DActor24_Blueprint as a dependent...
+[2021.05.04-06.50.25:932][319]LogPlayLevel: [PlayLevel]   Compiling Text3DActor27+32_Blueprint as a dependent...
+[2021.05.04-06.50.25:932][319]LogPlayLevel: [PlayLevel]   Compiling Text3DActor27_Blueprint as a dependent...
+[2021.05.04-06.50.25:932][319]LogPlayLevel: [PlayLevel]   Compiling Text3DActor30+14_Blueprint as a dependent...
+[2021.05.04-06.50.25:933][319]LogPlayLevel: [PlayLevel]   Compiling Text3DActor39_Blueprint as a dependent...
+[2021.05.04-06.50.25:933][319]LogPlayLevel: [PlayLevel]   Compiling Text3DActor41_Blueprint as a dependent...
+[2021.05.04-06.50.25:933][319]LogPlayLevel: [PlayLevel]   Compiling Text3DActor44_Blueprint as a dependent...
+[2021.05.04-06.50.25:933][319]LogPlayLevel: [PlayLevel]   Compiling Text3DActor49_Blueprint as a dependent...
+[2021.05.04-06.50.25:933][319]LogPlayLevel: [PlayLevel]   Compiling Text3DActor73_Blueprint as a dependent...
+[2021.05.04-06.50.25:933][319]LogPlayLevel: [PlayLevel]   Compiling Text3DActor8+7_Blueprint as a dependent...
+[2021.05.04-06.50.31:718][319]LogUObjectHash: Compacting FUObjectHashTables data took   9.71ms
+[2021.05.04-06.50.31:720][319]LogPlayLevel: PlayLevel: Blueprint regeneration took 5931 ms (19 blueprints)
+[2021.05.04-06.50.31:823][319]PIE: New page: PIE session: Minimal_Default (May 3, 2021, 10:50:31 PM)
+[2021.05.04-06.50.32:018][319]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.05.04-06.50.32:024][319]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.05.04-06.50.32:060][319]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.05.04-06.50.32:444][319]LogPlayLevel: PIE: StaticDuplicateObject took: (0.383509s)
+[2021.05.04-06.50.32:471][319]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.05.04-06.50.32:471][319]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E407651800), frame # 6319
+[2021.05.04-06.50.32:471][319]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E311AB2FC0), frame # 6319
+[2021.05.04-06.50.32:472][319]LogPlayLevel: PIE: World Init took: (0.016599s)
+[2021.05.04-06.50.32:487][319]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.426337s)
+[2021.05.04-06.50.32:548][319]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2021.05.04-06.50.32:559][319]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.04-06.50.32:560][319]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.04-06.50.32:560][319]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.04-06.50.32:560][319]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.04-06.50.32:560][319]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.04-06.50.32:560][319]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.04-06.50.32:560][319]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.04-06.50.32:560][319]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.04-06.50.32:560][319]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.04-06.50.32:561][319]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.04-06.50.32:596][319]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.04-06.50.32:596][319]LogAudioMixer: Display: 1: FrontRight
+[2021.05.04-06.50.32:668][319]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek High Definition Audio)
+[2021.05.04-06.50.32:668][319]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.04-06.50.32:668][319]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.04-06.50.32:669][319]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.04-06.50.32:670][319]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.04-06.50.32:706][319]LogInit: FAudioDevice initialized.
+[2021.05.04-06.50.32:823][319]LogLoad: Game class is 'GameModeBase'
+[2021.05.04-06.50.33:497][319]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2021.05.04-02.50.33
+[2021.05.04-06.50.33:709][319]LogWorld: Bringing up level for play took: 0.634093
+[2021.05.04-06.50.33:732][319]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2021.05.04-06.50.34:046][319]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 20 classes and 0 folders.
+[2021.05.04-06.50.34:306][319]PIE: Server logged in
+[2021.05.04-06.50.34:314][319]PIE: Play in editor total start time 8.736 seconds.
+[2021.05.04-06.50.55:561][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.04-06.50.55:571][ 22]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.05.04-06.50.55:658][ 22]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.05.04-06.50.55:825][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.04-06.50.55:883][ 22]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.04-06.50.55:997][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.04-06.50.56:114][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.04-06.50.56:472][ 22]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E311AB2FC0), frame # 7022
+[2021.05.04-06.50.56:473][ 22]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E407651800), frame # 7022
+[2021.05.04-06.50.56:557][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   9.61ms
+[2021.05.04-06.50.56:652][ 23]LogEditorViewport: Clicking Background
+[2021.05.04-06.50.56:845][ 23]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2021.05.04-06.51.00:625][129]LogEditorViewport: Clicking on Actor (LMB): BP_Maze_C (BP_Maze)
+[2021.05.04-06.51.02:226][159]LogEditorViewport: Clicking on Actor (LMB): BP_Maze_C (BP_Maze)
+[2021.05.04-06.51.30:147][876]BlueprintLog: New page: Compile BP_Maze
+[2021.05.04-06.51.34:308][876]LogUObjectHash: Compacting FUObjectHashTables data took  12.58ms
+[2021.05.04-06.51.37:641][917]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Maze" FILE="../../../../PiRate Island/MazeMini/Content/BP_Maze.uasset" SILENT=true
+[2021.05.04-06.51.37:757][917]LogSavePackage: Moving '../../../../PiRate Island/MazeMini/Saved/BP_Maze96385D1048DA8BDFE7ABAA83275BC59F.tmp' to '../../../../PiRate Island/MazeMini/Content/BP_Maze.uasset'
+[2021.05.04-06.51.37:808][917]AssetCheck: New page: Asset Save: BP_Maze
+[2021.05.04-06.51.37:809][917]LogContentValidation: Display: Validating Blueprint /Game/BP_Maze.BP_Maze
+[2021.05.04-06.51.40:424][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Text3DActor19+37_Blueprint" FILE="../../../../PiRate Island/MazeMini/Content/Text3DActor19+37_Blueprint.uasset" SILENT=true
+[2021.05.04-06.51.40:532][975]LogSavePackage: Moving '../../../../PiRate Island/MazeMini/Saved/Text3DActor19+37_Blueprint49BE90854DAB448CEBDE44B86A4E1FCB.tmp' to '../../../../PiRate Island/MazeMini/Content/Text3DActor19+37_Blueprint.uasset'
+[2021.05.04-06.51.40:564][975]AssetCheck: New page: Asset Save: Text3DActor19+37_Blueprint
+[2021.05.04-06.51.40:564][975]LogContentValidation: Display: Validating Blueprint /Game/Text3DActor19+37_Blueprint.Text3DActor19+37_Blueprint
+[2021.05.04-06.51.41:799][  8]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2021.05.04-06.51.41:800][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.04-06.51.55:193][255]LogEditorViewport: Clicking on Actor (LMB): Text3DActor (Text3DActor14+12)
+[2021.05.04-06.52.00:994][446]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.05.04-06.52.07:338][446]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2021.05.04-06.52.07:373][446]LogBlueprint: Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find native parent component 'DefaultSceneRoot_GEN_VARIABLE' for 'Text3DActor14+12' in BlueprintGeneratedClass 'Text3DActor14+12_Blueprint_C' (it may have been removed)
+[2021.05.04-06.52.07:535][446]LogUObjectHash: Compacting FUObjectHashTables data took   8.81ms
+[2021.05.04-06.52.07:736][446]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Text3DActor14+12_Blueprint.Text3DActor14+12_Blueprint
+[2021.05.04-06.52.20:869][735]LogBlueprint: Warning: Blueprint Text3DActor14+12_Blueprint (child of/implements BP_Maze) has a component variable with a conflicting name (Text3DActor14+12). Changing to Text3DActor14+12_0.
+[2021.05.04-06.53.51:813][ 87]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (BP_Goal2183)
+[2021.05.04-06.53.56:129][131]LogEditorViewport: Clicking Background
+[2021.05.04-06.54.14:855][811]LogEditorViewport: Clicking on Actor (LMB): Text3DActor (Text3DActor4+17)
+[2021.05.04-06.54.20:716][996]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.05.04-06.54.34:394][996]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2021.05.04-06.54.34:451][996]LogBlueprint: Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find native parent component 'DefaultSceneRoot_GEN_VARIABLE' for 'Text3DActor4+17' in BlueprintGeneratedClass 'Text3DActor4+17_Blueprint_C' (it may have been removed)
+[2021.05.04-06.54.34:764][996]LogUObjectHash: Compacting FUObjectHashTables data took  14.92ms
+[2021.05.04-06.54.34:997][996]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Text3DActor4+17_Blueprint.Text3DActor4+17_Blueprint
+[2021.05.04-06.54.44:454][189]LogBlueprint: Warning: Blueprint Text3DActor4+17_Blueprint (child of/implements BP_Maze) has a component variable with a conflicting name (Text3DActor4+17). Changing to Text3DActor4+17_0.
+[2021.05.04-06.56.16:912][490]LogEditorViewport: Clicking on Actor (LMB): BP_Maze_C (BP_Maze)
+[2021.05.04-06.56.18:625][536]LogEditorViewport: Clicking on Actor (LMB): Text3DActor (Text3DActor28)
+[2021.05.04-06.56.21:079][596]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.05.04-06.56.26:807][596]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2021.05.04-06.56.26:859][596]LogBlueprint: Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find native parent component 'DefaultSceneRoot_GEN_VARIABLE' for 'Text3DActor28' in BlueprintGeneratedClass 'Text3DActor28_Blueprint_C' (it may have been removed)
+[2021.05.04-06.56.27:103][596]LogUObjectHash: Compacting FUObjectHashTables data took  11.60ms
+[2021.05.04-06.56.27:339][596]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Text3DActor28_Blueprint.Text3DActor28_Blueprint
+[2021.05.04-06.56.38:985][838]LogBlueprint: Warning: Blueprint Text3DActor28_Blueprint (child of/implements BP_Maze) has a component variable with a conflicting name (Text3DActor28). Changing to Text3DActor28_0.
+[2021.05.04-06.57.56:104][193]LogUObjectHash: Compacting FUObjectHashTables data took  13.05ms
+[2021.05.04-06.57.56:294][193]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2021.05.04-06.57.58:382][193]LogSavePackage: Moving '../../../../PiRate Island/MazeMini/Saved/Minimal_Default52ADEBD24BA441338A52508F0D964855.tmp' to '../../../../PiRate Island/MazeMini/Content/StarterContent/Maps/Minimal_Default.umap'
+[2021.05.04-06.57.58:504][193]LogFileHelpers: Saving map 'Minimal_Default' took 2.318
+[2021.05.04-06.57.58:504][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/Minimal_Default_BuiltData" FILE="../../../../PiRate Island/MazeMini/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" SILENT=true
+[2021.05.04-06.57.58:868][193]LogSavePackage: Moving '../../../../PiRate Island/MazeMini/Saved/Minimal_Default_BuiltData606AC2094F594E43A7E48BB0C491DDE8.tmp' to '../../../../PiRate Island/MazeMini/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2021.05.04-06.57.58:927][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Maze" FILE="../../../../PiRate Island/MazeMini/Content/BP_Maze.uasset" SILENT=true
+[2021.05.04-06.57.59:293][193]LogSavePackage: Moving '../../../../PiRate Island/MazeMini/Saved/BP_Maze34E82CB643A47348F749ACB6C1585882.tmp' to '../../../../PiRate Island/MazeMini/Content/BP_Maze.uasset'
+[2021.05.04-06.57.59:302][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Text3DActor19+37_Blueprint" FILE="../../../../PiRate Island/MazeMini/Content/Text3DActor19+37_Blueprint.uasset" SILENT=true
+[2021.05.04-06.57.59:859][193]LogSavePackage: Moving '../../../../PiRate Island/MazeMini/Saved/Text3DActor19+37_Blueprint09805072406D7542E6B6FF897C58A933.tmp' to '../../../../PiRate Island/MazeMini/Content/Text3DActor19+37_Blueprint.uasset'
+[2021.05.04-06.57.59:903][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Text3DActor14+12_Blueprint" FILE="../../../../PiRate Island/MazeMini/Content/Text3DActor14+12_Blueprint.uasset" SILENT=true
+[2021.05.04-06.57.59:949][193]LogSavePackage: Moving '../../../../PiRate Island/MazeMini/Saved/Text3DActor14+12_BlueprintC319763447E7DE8DB0AA3CB45B065AD8.tmp' to '../../../../PiRate Island/MazeMini/Content/Text3DActor14+12_Blueprint.uasset'
+[2021.05.04-06.58.00:015][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Text3DActor4+17_Blueprint" FILE="../../../../PiRate Island/MazeMini/Content/Text3DActor4+17_Blueprint.uasset" SILENT=true
+[2021.05.04-06.58.00:066][193]LogSavePackage: Moving '../../../../PiRate Island/MazeMini/Saved/Text3DActor4+17_BlueprintD51E52514BA9C2A2CDBC18B651484C6D.tmp' to '../../../../PiRate Island/MazeMini/Content/Text3DActor4+17_Blueprint.uasset'
+[2021.05.04-06.58.00:227][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Text3DActor28_Blueprint" FILE="../../../../PiRate Island/MazeMini/Content/Text3DActor28_Blueprint.uasset" SILENT=true
+[2021.05.04-06.58.00:288][193]LogSavePackage: Moving '../../../../PiRate Island/MazeMini/Saved/Text3DActor28_Blueprint5A8DBE50478C795FE563319481F768EF.tmp' to '../../../../PiRate Island/MazeMini/Content/Text3DActor28_Blueprint.uasset'
+[2021.05.04-06.58.00:484][193]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.04-06.58.00:484][193]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2021.05.04-06.58.00:484][193]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
+[2021.05.04-06.58.00:484][193]LogContentValidation: Display: Validating Blueprint /Game/BP_Maze.BP_Maze
+[2021.05.04-06.58.00:484][193]LogContentValidation: Display: Validating Blueprint /Game/Text3DActor19+37_Blueprint.Text3DActor19+37_Blueprint
+[2021.05.04-06.58.00:484][193]LogContentValidation: Display: Validating Blueprint /Game/Text3DActor14+12_Blueprint.Text3DActor14+12_Blueprint
+[2021.05.04-06.58.00:484][193]LogContentValidation: Display: Validating Blueprint /Game/Text3DActor4+17_Blueprint.Text3DActor4+17_Blueprint
+[2021.05.04-06.58.00:484][193]LogContentValidation: Display: Validating Blueprint /Game/Text3DActor28_Blueprint.Text3DActor28_Blueprint
+[2021.05.04-06.58.34:267][893]LogEditorViewport: Clicking on Actor (LMB): BP_Maze_C (BP_Maze)
+[2021.05.04-06.58.46:460][161]LogEditorViewport: Clicking on Actor (LMB): Text3DActor (Text3DActor9+3)
+[2021.05.04-06.58.48:712][217]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.05.04-06.58.54:701][217]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2021.05.04-06.58.54:833][217]LogBlueprint: Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find native parent component 'DefaultSceneRoot_GEN_VARIABLE' for 'Text3DActor9+3' in BlueprintGeneratedClass 'Text3DActor9+3_Blueprint_C' (it may have been removed)
+[2021.05.04-06.58.55:146][217]LogUObjectHash: Compacting FUObjectHashTables data took  11.84ms
+[2021.05.04-06.58.55:384][217]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Text3DActor9+3_Blueprint.Text3DActor9+3_Blueprint
+[2021.05.04-06.59.06:652][446]LogBlueprint: Warning: Blueprint Text3DActor9+3_Blueprint (child of/implements BP_Maze) has a component variable with a conflicting name (Text3DActor9+3). Changing to Text3DActor9+3_0.
+[2021.05.04-07.01.02:246][450]LogEditorViewport: Clicking on Actor (LMB): BP_Maze_C (BP_Maze)
+[2021.05.04-07.01.03:460][476]LogEditorViewport: Clicking on Actor (LMB): BP_Maze_C (BP_Maze)
+[2021.05.04-07.01.04:914][512]LogEditorViewport: Clicking on Actor (LMB): Text3DActor (Text3DActor12)
+[2021.05.04-07.01.14:428][759]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.05.04-07.01.20:286][759]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2021.05.04-07.01.20:335][759]LogBlueprint: Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find native parent component 'DefaultSceneRoot_GEN_VARIABLE' for 'Text3DActor12' in BlueprintGeneratedClass 'Text3DActor12_Blueprint_C' (it may have been removed)
+[2021.05.04-07.01.20:850][759]LogUObjectHash: Compacting FUObjectHashTables data took  14.84ms
+[2021.05.04-07.01.21:090][759]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Text3DActor12_Blueprint.Text3DActor12_Blueprint
+[2021.05.04-07.01.32:938][ 20]LogBlueprint: Warning: Blueprint Text3DActor12_Blueprint (child of/implements BP_Maze) has a component variable with a conflicting name (Text3DActor12). Changing to Text3DActor12_0.
+[2021.05.04-07.03.13:477][459]LogUObjectHash: Compacting FUObjectHashTables data took  14.16ms
+[2021.05.04-07.03.13:639][459]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2021.05.04-07.03.15:267][459]LogSavePackage: Moving '../../../../PiRate Island/MazeMini/Saved/Minimal_DefaultDEECFCF8474F4F593AF523A65CDA680D.tmp' to '../../../../PiRate Island/MazeMini/Content/StarterContent/Maps/Minimal_Default.umap'
+[2021.05.04-07.03.15:354][459]LogFileHelpers: Saving map 'Minimal_Default' took 1.813
+[2021.05.04-07.03.15:355][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/Minimal_Default_BuiltData" FILE="../../../../PiRate Island/MazeMini/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" SILENT=true
+[2021.05.04-07.03.15:448][459]LogSavePackage: Moving '../../../../PiRate Island/MazeMini/Saved/Minimal_Default_BuiltData4943340343816109417746A6921E0C31.tmp' to '../../../../PiRate Island/MazeMini/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2021.05.04-07.03.15:499][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Maze" FILE="../../../../PiRate Island/MazeMini/Content/BP_Maze.uasset" SILENT=true
+[2021.05.04-07.03.15:689][459]LogSavePackage: Moving '../../../../PiRate Island/MazeMini/Saved/BP_Maze2BAFC04A46D2318368C523AFF76F84B3.tmp' to '../../../../PiRate Island/MazeMini/Content/BP_Maze.uasset'
+[2021.05.04-07.03.15:738][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Text3DActor9+3_Blueprint" FILE="../../../../PiRate Island/MazeMini/Content/Text3DActor9+3_Blueprint.uasset" SILENT=true
+[2021.05.04-07.03.15:789][459]LogSavePackage: Moving '../../../../PiRate Island/MazeMini/Saved/Text3DActor9+3_BlueprintCA7146A04C729A5BC838C7BE9D4AAC49.tmp' to '../../../../PiRate Island/MazeMini/Content/Text3DActor9+3_Blueprint.uasset'
+[2021.05.04-07.03.15:839][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Text3DActor12_Blueprint" FILE="../../../../PiRate Island/MazeMini/Content/Text3DActor12_Blueprint.uasset" SILENT=true
+[2021.05.04-07.03.15:923][459]LogSavePackage: Moving '../../../../PiRate Island/MazeMini/Saved/Text3DActor12_BlueprintE8752655433EF95739D72E8AA59F26AB.tmp' to '../../../../PiRate Island/MazeMini/Content/Text3DActor12_Blueprint.uasset'
+[2021.05.04-07.03.16:034][459]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.04-07.03.16:034][459]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2021.05.04-07.03.16:034][459]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
+[2021.05.04-07.03.16:034][459]LogContentValidation: Display: Validating Blueprint /Game/BP_Maze.BP_Maze
+[2021.05.04-07.03.16:034][459]LogContentValidation: Display: Validating Blueprint /Game/Text3DActor9+3_Blueprint.Text3DActor9+3_Blueprint
+[2021.05.04-07.03.16:034][459]LogContentValidation: Display: Validating Blueprint /Game/Text3DActor12_Blueprint.Text3DActor12_Blueprint
+[2021.05.04-07.03.19:163][505]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2021.05.04-07.03.19:163][505]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.04-07.03.20:747][527]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.05.04-07.03.20:747][527]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2021.05.04-07.03.20:747][527]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.04-07.03.21:653][540]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.05.04-07.03.21:654][540]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2021.05.04-07.03.21:654][540]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.04-07.03.22:477][552]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.05.04-07.03.22:477][552]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2021.05.04-07.03.22:478][552]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.04-07.03.23:229][563]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.05.04-07.03.23:229][563]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2021.05.04-07.03.23:229][563]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.04-07.04.02:469][936]LogEditorViewport: Clicking on Actor (LMB): Text3DActor (Text3DActor2+8)
+[2021.05.04-07.04.07:026][ 73]LogEditorViewport: Clicking on Actor (LMB): BP_Maze_C (BP_Maze)
+[2021.05.04-07.04.09:509][132]LogEditorViewport: Clicking on Actor (LMB): BP_Maze_C (BP_Maze)
+[2021.05.04-07.04.11:251][171]LogEditorViewport: Clicking on Actor (LMB): BP_Maze_C (BP_Maze)
+[2021.05.04-07.04.12:539][200]LogEditorViewport: Clicking on Actor (LMB): BP_Maze_C (BP_Maze)
+[2021.05.04-07.04.13:968][230]LogEditorViewport: Clicking on Actor (LMB): BP_Maze_C (BP_Maze)
+[2021.05.04-07.04.15:669][265]LogEditorViewport: Clicking on Actor (LMB): Text3DActor (Text3DActor2+8)
+[2021.05.04-07.04.19:443][345]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.05.04-07.04.26:646][345]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2021.05.04-07.04.26:684][345]LogBlueprint: Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find native parent component 'DefaultSceneRoot_GEN_VARIABLE' for 'Text3DActor2+8_5275' in BlueprintGeneratedClass 'Text3DActor2+8_Blueprint_C' (it may have been removed)
+[2021.05.04-07.04.26:886][345]LogUObjectHash: Compacting FUObjectHashTables data took   9.40ms
+[2021.05.04-07.04.27:118][345]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Text3DActor2+8_Blueprint.Text3DActor2+8_Blueprint
+[2021.05.04-07.04.37:888][555]LogBlueprint: Warning: Blueprint Text3DActor2+8_Blueprint (child of/implements BP_Maze) has a component variable with a conflicting name (Text3DActor2+8_5275). Changing to Text3DActor2+8_5275_0.
+[2021.05.04-07.05.30:678][ 80]BlueprintLog: New page: Compile BP_Maze
+[2021.05.04-07.05.37:555][ 80]LogUObjectHash: Compacting FUObjectHashTables data took  18.18ms
+[2021.05.04-07.06.01:629][466]LogEditorViewport: Clicking on Actor (LMB): Text3DActor (Text3DActor34+8)
+[2021.05.04-07.06.05:717][595]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.05.04-07.06.11:789][595]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2021.05.04-07.06.11:842][595]LogBlueprint: Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find native parent component 'DefaultSceneRoot_GEN_VARIABLE' for 'Text3DActor34+8' in BlueprintGeneratedClass 'Text3DActor34+8_Blueprint_C' (it may have been removed)
+[2021.05.04-07.06.12:026][595]LogUObjectHash: Compacting FUObjectHashTables data took  11.51ms
+[2021.05.04-07.06.12:261][595]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Text3DActor34+8_Blueprint.Text3DActor34+8_Blueprint
+[2021.05.04-07.06.25:584][877]LogBlueprint: Warning: Blueprint Text3DActor34+8_Blueprint (child of/implements BP_Maze) has a component variable with a conflicting name (Text3DActor34+8). Changing to Text3DActor34+8_0.
+[2021.05.04-07.06.46:954][449]LogEditorTransaction: Undo Modify Component(s)
+[2021.05.04-07.06.53:927][588]LogEditorTransaction: Undo Modify Component(s)
+[2021.05.04-07.08.34:600][ 71]LogEditor: Attempting to add actor of class 'Text3DActor' to level at -160.00,-2730.00,1230.00
+[2021.05.04-07.08.37:110][133]LogEditor: Attempting to add actor of class 'Text3DActor' to level at 280.00,-2390.00,910.00
+[2021.05.04-07.08.53:790][472]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.05.04-07.08.59:656][472]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2021.05.04-07.08.59:775][472]LogBlueprint: Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find native parent component 'DefaultSceneRoot_GEN_VARIABLE' for 'Text3DActor10' in BlueprintGeneratedClass 'Text3DActor10_Blueprint_C' (it may have been removed)
+[2021.05.04-07.09.00:463][472]LogUObjectHash: Compacting FUObjectHashTables data took  20.17ms
+[2021.05.04-07.09.00:741][472]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Text3DActor10_Blueprint.Text3DActor10_Blueprint
+[2021.05.04-07.10.17:910][501]LogEditorViewport: Clicking on Actor (LMB): BP_Maze_C (BP_Maze)
+[2021.05.04-07.10.18:838][516]LogEditorViewport: Clicking on Actor (LMB): BP_Maze_C (BP_Maze)
+[2021.05.04-07.10.20:699][552]LogEditorViewport: Clicking on Actor (LMB): Text3DActor (Text3DActor12+6)
+[2021.05.04-07.10.23:542][615]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.05.04-07.10.34:907][615]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2021.05.04-07.10.35:037][615]LogBlueprint: Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find native parent component 'DefaultSceneRoot_GEN_VARIABLE' for 'Text3DActor12+6' in BlueprintGeneratedClass 'Text3DActor12+6_Blueprint_C' (it may have been removed)
+[2021.05.04-07.10.35:424][615]LogUObjectHash: Compacting FUObjectHashTables data took  13.67ms
+[2021.05.04-07.10.35:716][615]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Text3DActor12+6_Blueprint.Text3DActor12+6_Blueprint
+[2021.05.04-07.10.57:103][105]LogBlueprint: Warning: Blueprint Text3DActor12+6_Blueprint (child of/implements BP_Maze) has a component variable with a conflicting name (Text3DActor12+6). Changing to Text3DActor12+6_0.
+[2021.05.04-07.11.22:215][670]LogBlueprint: Warning: Blueprint Text3DActor34+8_Blueprint (child of/implements BP_Maze) has a component variable with a conflicting name (Text3DActor34+8_0). Changing to Text3DActor34+8_0_0.
+[2021.05.04-07.12.21:673][375]LogEditorTransaction: Undo Modify Component(s)
+[2021.05.04-07.12.23:248][375]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.05.04-07.12.23:249][375]LogWindows: Windows GetLastError: The operation completed successfully. (0)
